@@ -50,10 +50,6 @@ class Form{
             game.update(0);
 
 
-
-            var playerInfoRef = database.ref('players');
-            playerInfoRef.remove();
-
         });
 
     }
